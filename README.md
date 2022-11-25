@@ -18,12 +18,12 @@ Este é um exemplo básico de comandos do docker bem simples para visualização
 run [OPTIONS] IMAGE [COMAND] [ARGS..]
 
 docker run [IMAGE -> ubuntu] [COMMAND -> sleep 1d] - sobe o container e executa durante 1 dia
-docker run -it [IMAGE -> ubuntu] [COMMAND -> bach] - sobe o container e executa enquanto houver processos sendo executados, neste caso estamos entrando dentro do bach/terminal do container
-docker run -d [IMAGE] -> sobe o container sem travar o terminal que está sendo usado
-docker run -d -P [IMAGE] -> sobe o container sem travar o terminal e o próprio docker cria o mapeamento para outra porta
-docker run -d -p 8080:80 [IMAGE] -> sobe o container sem travar o terminal indicando o mapeamento da porta de execução do container
 
 ```
 
+## ⚙️ Comandos de Visualização
 
-## ⚙️ Comandos 
+```
+* **docker ps | docker container ls** - Lista todas as informações de imagens que estão em execução no momento
+* **docker ps -a | docker container -a** - Mostra todas as imagens que subiram no docker
+```
