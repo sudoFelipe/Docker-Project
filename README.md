@@ -21,7 +21,7 @@ docker run [IMAGE -> ubuntu] [COMMAND -> sleep 1d] - sobe o container e executa 
 
 ```
 
-## ⚙️ Comandos de Visualização
+### ⚙️ Comandos de Visualização
 
 ```
 docker ps | docker container ls - Lista todas as informações de imagens que estão em execução no momento
@@ -30,7 +30,7 @@ docker images - visualização das imagens baixadas
 docker history - histórico de imagens
 ```
 
-## ⚙️ Comandos de Inicialização e Parada do Container
+### ⚙️ Comandos de Inicialização e Parada do Container
 
 ```
 docker port [PID] -> visualização de mapeamento das portas do container
@@ -41,7 +41,7 @@ docker unpause [PID] -> Despausa o container
 docker rm [PID] -> Remove o container
 ```
 
-## ⚙️ Comandos de Execução de Containers e Imagens
+### ⚙️ Comandos de Execução de Containers e Imagens
 
 ```
 docker run [IMAGE -> ubuntu] [COMMAND -> sleep 1d] - sobe o container e executa durante 1 dia
