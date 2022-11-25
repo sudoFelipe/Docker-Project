@@ -24,6 +24,6 @@ docker run [IMAGE -> ubuntu] [COMMAND -> sleep 1d] - sobe o container e executa 
 ## ⚙️ Comandos de Visualização
 
 ```
-* **docker ps | docker container ls** - Lista todas as informações de imagens que estão em execução no momento
-* **docker ps -a | docker container -a** - Mostra todas as imagens que subiram no docker
+* docker ps | docker container ls** - Lista todas as informações de imagens que estão em execução no momento
+* docker ps -a | docker container -a** - Mostra todas as imagens que subiram no docker
 ```
